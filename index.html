@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+	<!-- Google Font -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+	<!-------->
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+
+		.navMenu {
+			font-family: 'Source Sans Pro', sans-serif;
+			padding: 8px;
+			text-align: center;
+			margin: 7px auto;
+			width: fit-content;
+		}
+
+		.navMenu a {
+			color: #f0eae4;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: inline-block;
+			padding: 6px;
+		}
+
+		.background {
+			background-color: #ece5f0;
+		}
+
+		.border {
+			border: 0px solid #cccccc;
+
+		}
+
+		.navMenu a:hover {
+
+			color: #d09c0b;
+		}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navMenu  border">
+		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
+		<a id="core" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bars-progress"></i> Core</a>
+		<a id="marketplaces" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-store"></i> Marketplaces</a>
+		<a id="orders" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-truck-fast"></i> Orders</a>
+		<a id="amazon" onclick="navigate(this.id)" href="#"> <i class="fa-brands fa-amazon"></i> Amazon</a>
+		<a id="ebay" onclick="navigate(this.id)" href="#"> <i class="fa-brands fa-ebay"></i> eBay</a>
+		<a id="automatedTask" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-filter"></i> Automated Tasks</a>
+		<a id="reports" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-file-circle-exclamation"></i> Reports</a>
+		<a id="repricer" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-hand-holding-dollar"></i> Repricer</a>
+		<a id="businessRules" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-book"></i> Business Rules</a>
+		<a id="digitalMarketing" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-rectangle-ad"></i> Digital Marketing</a>
+		<a id="partners" onclick="navigate(this.id)" href="#"> <i class="fa-regular fa-handshake"></i> Partners</a>
+		<a id="google" onclick="navigate(this.id)" href="#"> <i class="fa-brands fa-square-google-plus"></i> Social (Google)</a>
+		<a id="firstP" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-user"></i> First Party</a>
+		<a id="api" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-network-wired"></i> API</a>
+		<a id="cfs" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-check-double"></i> CFS</a>
+		<a id="wtb" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-map-location"></i> WTB</a>
+		<a id="brand" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-chart-line"></i> Brand Analytics</a>
+	
+
+
+
+	</nav>
+
+
+	<script>
+
+		let direction = "horizontal";
+		if (direction === "vertical") {
+			document.head.insertAdjacentHTML("beforeend", `<style>.navMenu a {display: block; text-align:left; margin:7px} i{width:15px; margin-right:5px} .navMenu{margin:3px}</style>`)
+		}
+
+
+		function navigate(id) {
+
+			if (id == 'home')
+				window.open("https://home.com", '_blank').focus();
+			else if (id == 'core')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'marketplaces')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'orders')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'amazon')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'ebay')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'automatedTask')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'reports')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'repricer')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'businessRules')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'digitalMarketing')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'partners')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'google')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'firstP')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'api')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'cfs')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'wtb')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			else if (id == 'brand')
+				window.open("https://platinum-can-a30.notion.site/Core-214907ab542c44bab141e82c302634d9", '_blank').focus();
+			
+			
+		}
+	</script>
+
+
+</body>
+
+</html>
