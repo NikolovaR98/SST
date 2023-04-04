@@ -12,20 +12,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,900;1,900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&family=Source+Sans+Pro:ital,wght@0,400;0,900;1,900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Playfair+Display:ital,wght@1,800&family=Source+Sans+Pro:ital,wght@0,400;0,900;1,900&display=swap" rel="stylesheet">
-
-
-
 	<!-------->
 
 	<style>
@@ -45,12 +31,8 @@
 			width: fit-content;
 		}
 		
-		.header {
-font-family: 'Cinzel', serif;
-
-
-			font-size: 36px;
-			color: #f34770;
+		.home {
+			font-family: 'Source Sans Pro', sans-serif;
 			padding: 8px;
 			text-align: center;
 			margin: 7px auto;
@@ -58,7 +40,7 @@ font-family: 'Cinzel', serif;
 		}
 
 		.navMenu a {
-			color: #f34770;
+			color: #b62d4e;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -83,7 +65,7 @@ font-family: 'Cinzel', serif;
 
 <body>
 	<nav class = "header" >
-	<h1 id="home" <center>SST Knowledge Base</center> </1>
+	<a id="home" onclick="navigate(this.id)" href="#"> SST Knowledge Base </a>
 	</nav>
 	
 	<nav class="navMenu  border">
@@ -141,7 +123,7 @@ font-family: 'Cinzel', serif;
 			else if (id == 'repricer')
 				window.open("https://pastoral-soy-ee2.notion.site/Repricer-ca96e0e9be8c495080109138940c6b5d", '_blank').focus();
 			else if (id == 'businessRules')
-				window.open("https://pastoral-soy-ee2.notion.site/Business-Rules-a5a73bdfce554f219dbab8db95d31218", '_blank').focus();
+				window.open("https://pastoral-soy-ee2.notion.site/Business-Rules-5974c1e5f7764e8aba9c2ba58a3a6ac1", '_blank').focus();
 			else if (id == 'digitalMarketing')
 				window.open("https://pastoral-soy-ee2.notion.site/Digital-Marketing-390c8312e210473595a9892a227a69fa", '_blank').focus();
 			else if (id == 'partners')
